@@ -40,8 +40,9 @@ end
 
 kesha_maker(["blake", "ashley", "scott"])
 
-def find_a(array)
-  array.find_all do |word|
+fruits = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+def find_a(fruit)
+  fruits.find_all do |word|
     word[0] == "a"
   end
 end
