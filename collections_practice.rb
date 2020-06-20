@@ -18,4 +18,4 @@ def sort_array_char_count(array)
     left.length <=> right.length
   end
 end
-sort_array_char_count((["dogs", "cat", "Horses"])
+sort_array_char_count(["dogs", "cat", "Horses"])
