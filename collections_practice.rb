@@ -5,5 +5,3 @@ def sort_array_asc(array)
 end
 
 sort_array_asc([25, 7, 1])
-
-
