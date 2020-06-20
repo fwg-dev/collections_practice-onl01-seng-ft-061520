@@ -25,3 +25,46 @@ def swap_elements(array)
   array
 end
 swap_elements(["blake", "ashley", "scott"])
+
+def reverse_array(array)
+  array.reverse
+end
+
+reverse_array(["blake", "ashley", "scott"]) 
+
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
+
+kesha_maker(["blake", "ashley", "scott"]) 
+
+def find_a(array)
+  array.find_all {|word| word[0] == "a"}
+  end
+end
+
+find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) 
+
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+end 
+  
+sum_array([11,4,7,8,9,100,134]) 
+
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
+
+add_s(["hand","feet", "knee", "table"])
