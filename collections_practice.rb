@@ -11,3 +11,4 @@ def sort_array_desc(array)
   a <=> b
   end
 end
+sort_array_desc([25, 7, 14])
