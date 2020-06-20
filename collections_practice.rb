@@ -6,6 +6,8 @@ def sort_array_asc(numbers)
       0
   elsif a < b
     -1
-
-    end
+  elsif a > b 
+    1
+end    
+    
 end
